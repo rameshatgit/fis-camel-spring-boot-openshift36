@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.s3.sb</groupId>
-  <artifactId>fis.sb.plain-rest</artifactId>
+  <artifactId>fis-sb-plain-rest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>Fabric8 :: Quickstarts :: Spring-Boot :: Camel</name>

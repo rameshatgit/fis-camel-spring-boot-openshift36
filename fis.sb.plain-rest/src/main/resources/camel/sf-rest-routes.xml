@@ -4,7 +4,7 @@
         <from id="_from1" uri="direct:getWelcomeMsg"/>
         <log id="_log1" message="Message received on server side...."/>
         <setBody id="_setBody1">
-            <constant>Welcome to moon 100</constant>
+            <constant>Welcome to moon 100 from local b</constant>
         </setBody>
     </route>
 </routes>
