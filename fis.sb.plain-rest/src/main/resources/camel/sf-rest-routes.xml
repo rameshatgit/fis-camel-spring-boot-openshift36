@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes id="routes-89e186cb-b95f-4155-8049-d298b9f91f56" xmlns="http://camel.apache.org/schema/spring">
+    <route id="getWelcomeMsgRoute">
+        <from id="_from1" uri="direct:getWelcomeMsg"/>
+        <log id="_log1" message="Message received on server side...."/>
+        <setBody id="_setBody1">
+            <constant>Welcome to moon 100</constant>
+        </setBody>
+    </route>
+</routes>
